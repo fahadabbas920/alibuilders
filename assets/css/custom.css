@@ -1,0 +1,57 @@
+.collapse{
+    height: 240px;
+    overflow: hidden;
+}
+
+.custom-btn{
+    padding: 10px;
+    margin: 30px auto;
+    /* color: white; */
+}
+
+.links{
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 0.5em 0;
+    z-index: 5;
+    justify-content: center;
+    margin-bottom: 30px;
+    /* box-shadow: 0 0 0 5px #999; */
+    }
+
+nav ul{
+    display: flex;
+    width: 80%;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+.nav ul li{
+    padding: 0;
+}
+
+.about--span{
+    color: crimson;
+}
+
+.team--images{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team--images img{
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+
+/* .team--images .team-img{
+    width: 200px;
+} */
